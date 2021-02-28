@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.beer-tagline{
+  color:gray;
+}
+
+.description{
+  display:flex;
+  
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  align-items: flex-start;
+
+}
+
+.text {
+
+    margin-right: auto;
+    width: 20em
+}
+
+.single-beer{
+  padding-left: 5rem;
+}
+
+.text-input{
+  padding:10px;
+  margin: 10px;
+  border-radius:10px;
+
+}
+
+.add-new-button{
+  padding: 10px;
+}
